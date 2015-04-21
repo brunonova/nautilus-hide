@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.6)
+project(NautilusHide NONE)
+find_package(Gettext REQUIRED)
+
+configure_file(extension/nautilus-hide.py extension/nautilus-hide.py)
+
+gettext_create_translations(po/nautilus-hide.pot ALL po/pt.po)
+
+install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-hide.py" DESTINATION /usr/share/nautilus-python/extensions)
+
+# Uninstall target
+configure_file("${CMAKE_CURRENT_SOURCE_DIR}/cmake/cmake_uninstall.cmake.in"
+               "${CMAKE_CURRENT_BINARY_DIR}/cmake/cmake_uninstall.cmake" IMMEDIATE @ONLY)
+add_custom_target(uninstall COMMAND ${CMAKE_COMMAND} -P ${CMAKE_CURRENT_BINARY_DIR}/cmake/cmake_uninstall.cmake)
