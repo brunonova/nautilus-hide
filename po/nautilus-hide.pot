@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-hide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 13:46+0100\n"
+"POT-Creation-Date: 2015-04-29 15:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension/nautilus-hide.py:77
+#: extension/nautilus-hide.py:82
 msgid "Hide File"
 msgstr ""
 
-#: extension/nautilus-hide.py:78
+#: extension/nautilus-hide.py:83
 msgid "Hide this file"
 msgstr ""
 
-#: extension/nautilus-hide.py:81
+#: extension/nautilus-hide.py:86
 msgid "Hide Files"
 msgstr ""
 
-#: extension/nautilus-hide.py:82
+#: extension/nautilus-hide.py:87
 msgid "Hide these files"
 msgstr ""
 
-#: extension/nautilus-hide.py:90
+#: extension/nautilus-hide.py:95
 msgid "Unhide File"
 msgstr ""
 
-#: extension/nautilus-hide.py:91
+#: extension/nautilus-hide.py:96
 msgid "Unhide this file"
 msgstr ""
 
-#: extension/nautilus-hide.py:94
+#: extension/nautilus-hide.py:99
 msgid "Unhide Files"
 msgstr ""
 
-#: extension/nautilus-hide.py:95
+#: extension/nautilus-hide.py:100
 msgid "Unhide these files"
 msgstr ""
