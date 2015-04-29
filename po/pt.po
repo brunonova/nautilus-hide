@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-hide 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 13:46+0100\n"
+"POT-Creation-Date: 2015-04-29 15:08+0100\n"
 "PO-Revision-Date: 2015-04-28 18:05+0100\n"
 "Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: extension/nautilus-hide.py:77
+#: extension/nautilus-hide.py:82
 msgid "Hide File"
 msgstr "Ocultar Ficheiro"
 
-#: extension/nautilus-hide.py:81
+#: extension/nautilus-hide.py:86
 msgid "Hide Files"
 msgstr "Ocultar Ficheiros"
 
-#: extension/nautilus-hide.py:82
+#: extension/nautilus-hide.py:87
 msgid "Hide these files"
 msgstr "Ocultar estes ficheiros"
 
-#: extension/nautilus-hide.py:78
+#: extension/nautilus-hide.py:83
 msgid "Hide this file"
 msgstr "Ocultar este ficheiro"
 
-#: extension/nautilus-hide.py:90
+#: extension/nautilus-hide.py:95
 msgid "Unhide File"
 msgstr "Desocultar Ficheiro"
 
-#: extension/nautilus-hide.py:94
+#: extension/nautilus-hide.py:99
 msgid "Unhide Files"
 msgstr "Desocultar Ficheiros"
 
-#: extension/nautilus-hide.py:95
+#: extension/nautilus-hide.py:100
 msgid "Unhide these files"
 msgstr "Desocultar estes ficheiros"
 
-#: extension/nautilus-hide.py:91
+#: extension/nautilus-hide.py:96
 msgid "Unhide this file"
 msgstr "Desocultar este ficheiro"
