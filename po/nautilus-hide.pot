@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-hide 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-29 13:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension/nautilus-hide.py:77
+msgid "Hide File"
+msgstr ""
+
+#: extension/nautilus-hide.py:78
+msgid "Hide this file"
+msgstr ""
+
+#: extension/nautilus-hide.py:81
+msgid "Hide Files"
+msgstr ""
+
+#: extension/nautilus-hide.py:82
+msgid "Hide these files"
+msgstr ""
+
+#: extension/nautilus-hide.py:90
+msgid "Unhide File"
+msgstr ""
+
+#: extension/nautilus-hide.py:91
+msgid "Unhide this file"
+msgstr ""
+
+#: extension/nautilus-hide.py:94
+msgid "Unhide Files"
+msgstr ""
+
+#: extension/nautilus-hide.py:95
+msgid "Unhide these files"
+msgstr ""
