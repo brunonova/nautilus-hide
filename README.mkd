@@ -10,22 +10,20 @@ dot ('.') or suffixing a tilde ('~')).
 Details
 -------
 
-In Linux, and other UNIX like systems, a file with a filename that starts by a
+In Linux, and other UNIX like systems, a file with a name that starts by a
 dot ('.') is considered a *hidden file*.
 Some file managers also hide files that end with a tilde ('~'), with are
 considered *backup files*.
 
-To hide a file, you would have to rename it. That's not always feasible or
-desirable.
+To hide an existing file, you would have to rename it. That's not always
+feasible or desirable.
 
-Some file managers, like Nautilus, offer an **alternative way of hiding file**:
+Some file managers, like Nautilus, offer an **alternative way of hiding files**:
 you create a text file that lists, line-by-line, the names of all the files you
 want to hide and save it in that folder with the name `.hidden`. The next time
 you open or refresh that folder, those files will not be visible.
 
-This works in, at least, Nautilus (and derivatives like Nemo and Caja), Thunar
-and, eventually, Dolphin. This also works in some open/save file dialogs.
-
-This extension simply adds or removes files to or from the `.hidden` file.
-With this extension I intend to make this useful (but somewhat obscure) feature
-known to more people.
+This extension simply uses that `.hidden` file to hide files. When you choose to
+hide a file, its name is added to the folder's `.hidden` file. When you choose
+to unhide it, the name is removed.
+You will have to refresh the folder to see the result.
