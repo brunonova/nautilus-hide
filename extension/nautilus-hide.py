@@ -132,7 +132,7 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 				with open(hidden_path, "w") as f:
 					for file in hidden:
 						f.write(file + '\n')
-			# TODO Refresh Nautilus?
+			# Nautilus should be refreshed here. But how to do that?
 		except:
 			print("Failed to delete or write to {}!".format(hidden_path))
 
