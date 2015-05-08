@@ -16,7 +16,7 @@
 
 import os
 from gi.repository import Nautilus, GObject
-from gettext import gettext, locale, bindtextdomain, textdomain
+from gettext import ngettext, locale, bindtextdomain, textdomain
 
 class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 	"""Simple Nautilus extension that adds some actions to the context menu to
@@ -95,27 +95,17 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 
 	def _create_hide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Hide file(s)' menu item."""
-		if len(files) == 1:
-			item = Nautilus.MenuItem(name="NautilusHide::HideFile",
-				                     label=gettext("Hide File"),
-				                     tip=gettext("Hide this file"))
-		else:
-			item = Nautilus.MenuItem(name="NautilusHide::HideFiles",
-				                     label=gettext("Hide Files"),
-				                     tip=gettext("Hide these files"))
+		item = Nautilus.MenuItem(name="NautilusHide::HideFile",
+		                         label=ngettext("Hide File", "Hide Files", len(files)),
+		                         tip=ngettext("Hide this file", "Hide these files", len(files)))
 		item.connect("activate", self._hide_run, files, hidden_path, hidden)
 		return item
 
 	def _create_unhide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Unhide file(s)' menu item."""
-		if len(files) == 1:
-			item = Nautilus.MenuItem(name="NautilusHide::UnhideFile",
-				                     label=gettext("Unhide File"),
-				                     tip=gettext("Unhide this file"))
-		else:
-			item = Nautilus.MenuItem(name="NautilusHide::UnhideFiles",
-				                     label=gettext("Unhide Files"),
-				                     tip=gettext("Unhide these files"))
+		item = Nautilus.MenuItem(name="NautilusHide::UnhideFile",
+		                         label=ngettext("Unhide File", "Unhide Files", len(files)),
+		                         tip=ngettext("Unhide this file", "Unhide these files", len(files)))
 		item.connect("activate", self._unhide_run, files, hidden_path, hidden)
 		return item
 
