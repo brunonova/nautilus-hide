@@ -53,11 +53,13 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 
 		# Read the ".hidden" file
 		try:
+			hidden = set()
 			if os.path.exists(hidden_path):
 				with open(hidden_path) as f:
-					hidden = {line.strip() for line in f.readlines()}
-			else:
-				hidden = set()
+					for line in f.readlines():
+						line = line.strip("\r\n") # strip newline characters
+						if line != "":
+							hidden.add(line)
 		except: # ".hidden" file was deleted?
 			hidden = set()
 
