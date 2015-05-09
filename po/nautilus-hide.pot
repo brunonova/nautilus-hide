@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-hide 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-08 18:25+0100\n"
+"POT-Creation-Date: 2015-05-09 12:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
 #: extension/nautilus-hide.py:99
-msgid "Hide File"
-msgid_plural "Hide Files"
+msgid "_Hide File"
+msgid_plural "_Hide Files"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -31,8 +31,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: extension/nautilus-hide.py:107
-msgid "Unhide File"
-msgid_plural "Unhide Files"
+msgid "Un_hide File"
+msgid_plural "Un_hide Files"
 msgstr[0] ""
 msgstr[1] ""
 

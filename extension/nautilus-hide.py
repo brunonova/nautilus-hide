@@ -96,7 +96,7 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 	def _create_hide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Hide file(s)' menu item."""
 		item = Nautilus.MenuItem(name="NautilusHide::HideFile",
-		                         label=ngettext("Hide File", "Hide Files", len(files)),
+		                         label=ngettext("_Hide File", "_Hide Files", len(files)),
 		                         tip=ngettext("Hide this file", "Hide these files", len(files)))
 		item.connect("activate", self._hide_run, files, hidden_path, hidden)
 		return item
@@ -104,7 +104,7 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 	def _create_unhide_item(self, files, hidden_path, hidden):
 		"""Creates the 'Unhide file(s)' menu item."""
 		item = Nautilus.MenuItem(name="NautilusHide::UnhideFile",
-		                         label=ngettext("Unhide File", "Unhide Files", len(files)),
+		                         label=ngettext("Un_hide File", "Un_hide Files", len(files)),
 		                         tip=ngettext("Unhide this file", "Unhide these files", len(files)))
 		item.connect("activate", self._unhide_run, files, hidden_path, hidden)
 		return item
