@@ -3,5 +3,5 @@
 FILEPATH="$(readlink -f "$0")"
 DIR="$(dirname "$FILEPATH")"
 cd "$DIR"
-xgettext --package-name=nautilus-hide --package-version=0.1.1 -cTRANSLATORS \
+xgettext --package-name=nautilus-hide --package-version=0.1.2 -cTRANSLATORS \
          "extension/nautilus-hide.py" -o "po/nautilus-hide.pot"
