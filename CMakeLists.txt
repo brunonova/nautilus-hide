@@ -4,7 +4,7 @@ find_package(Gettext REQUIRED)
 
 configure_file(extension/nautilus-hide.py extension/nautilus-hide.py)
 
-gettext_create_translations(po/nautilus-hide.pot ALL po/pt.po)
+gettext_create_translations(po/nautilus-hide.pot ALL po/pt.po po/fr.po)
 
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-hide.py" DESTINATION /usr/share/nautilus-python/extensions)
 
