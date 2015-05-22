@@ -1,0 +1,46 @@
+# French translation for nautilus-hide package.
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the nautilus-hide package.
+# Bruno Nova <brunomb.nova@gmail.com>, 2015.
+# 
+# Translators:
+# Okki <okki@gnomelibre.fr>, 2015.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-hide 0.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-09 12:02+0100\n"
+"PO-Revision-Date: 2015-05-22 01:16+0200\n"
+"Last-Translator: Okki <okki@gnomelibre.fr>\n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: extension/nautilus-hide.py:100
+msgid "Hide this file"
+msgid_plural "Hide these files"
+msgstr[0] "Cacher ce fichier"
+msgstr[1] "Cacher ces fichiers"
+
+#: extension/nautilus-hide.py:107
+msgid "Un_hide File"
+msgid_plural "Un_hide Files"
+msgstr[0] "Ne _plus cacher ce fichier"
+msgstr[1] "Ne _plus cacher ces fichiers"
+
+#: extension/nautilus-hide.py:108
+msgid "Unhide this file"
+msgid_plural "Unhide these files"
+msgstr[0] "Ne plus cacher ce fichier"
+msgstr[1] "Ne plus cacher ces fichiers"
+
+#: extension/nautilus-hide.py:99
+msgid "_Hide File"
+msgid_plural "_Hide Files"
+msgstr[0] "_Cacher ce fichier"
+msgstr[1] "_Cacher ces fichiers"
