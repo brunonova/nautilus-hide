@@ -1,6 +1,8 @@
 Nautilus Hide
 =============
 
+[![GPLv3 license](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
+
 Nautilus Hide is a simple Python extension for the Nautilus file manager that
 adds options to the right-click menu to hide or unhide files.
 
