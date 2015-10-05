@@ -2,15 +2,15 @@
 # Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
 # This file is distributed under the same license as the nautilus-hide package.
 # Bruno Nova <brunomb.nova@gmail.com>, 2015.
-# 
+#
 # Translators:
 # Okki <okki@gnomelibre.fr>, 2015.
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-hide 0.1.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-09 12:02+0100\n"
+"Project-Id-Version: nautilus-hide 0.1.3\n"
+"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
+"POT-Creation-Date: 2015-10-05 21:47+0100\n"
 "PO-Revision-Date: 2015-05-22 01:16+0200\n"
 "Last-Translator: Okki <okki@gnomelibre.fr>\n"
 "Language-Team: \n"
