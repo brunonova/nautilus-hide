@@ -3,5 +3,10 @@
 FILEPATH="$(readlink -f "$0")"
 DIR="$(dirname "$FILEPATH")"
 cd "$DIR"
-xgettext --package-name=nautilus-hide --package-version=0.1.3 -cTRANSLATORS \
-         "extension/nautilus-hide.py" -o "po/nautilus-hide.pot"
+xgettext --package-name=nautilus-hide \
+         --package-version=0.1.3 \
+         --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
+         --msgid-bugs-address='https://github.com/brunonova/nautilus-hide/issues' \
+         -cTRANSLATORS \
+         -o "po/nautilus-hide.pot" \
+         "extension/nautilus-hide.py"
