@@ -12,7 +12,9 @@ The extension needs to be translated to more languages. You are welcome to
 translate it to yours, then send the translation through a pull request or
 through the [issue tracker][issues].
 
-The translation template, in gettext format, is located in the "po" folder.
+The translation template, in gettext format, is located in the `po` folder.
+The `.po` files should be listed in the `gettext_create_translations()` command
+of the *CMakeLists.txt*.
 
 
 ## Coding
