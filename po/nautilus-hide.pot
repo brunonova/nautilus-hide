@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-hide 0.1.3\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
-"POT-Creation-Date: 2015-10-05 21:47+0100\n"
+"POT-Creation-Date: 2015-12-08 13:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-
-#: extension/nautilus-hide.py:99
-msgid "_Hide File"
-msgid_plural "_Hide Files"
-msgstr[0] ""
-msgstr[1] ""
 
 #: extension/nautilus-hide.py:100
 msgid "Hide this file"
@@ -39,5 +33,11 @@ msgstr[1] ""
 #: extension/nautilus-hide.py:108
 msgid "Unhide this file"
 msgid_plural "Unhide these files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: extension/nautilus-hide.py:99
+msgid "_Hide File"
+msgid_plural "_Hide Files"
 msgstr[0] ""
 msgstr[1] ""

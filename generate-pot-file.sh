@@ -8,5 +8,5 @@ xgettext --package-name=nautilus-hide \
          --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
          --msgid-bugs-address='https://github.com/brunonova/nautilus-hide/issues' \
          -cTRANSLATORS \
-         -o "po/nautilus-hide.pot" \
+         -s -o "po/nautilus-hide.pot" \
          "extension/nautilus-hide.py"
