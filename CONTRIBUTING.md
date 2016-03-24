@@ -17,7 +17,6 @@ of the *CMakeLists.txt*.
 
 You can send the translation through a pull request or through
 the [issue tracker][issues].
-You can also translate the extension online on [Launchpad][lp_translate].
 
 
 ## Coding
@@ -33,4 +32,3 @@ If you add any translatable string to the extension, please run the
 
 
 [issues]: https://github.com/brunonova/nautilus-hide/issues
-[lp_translate]: https://translations.launchpad.net/nautilus-hide
