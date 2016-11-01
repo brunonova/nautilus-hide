@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com> -->
+<component type="addon">
+    <id>nautilus-hide</id>
+    <extends>org.gnome.Nautilus.desktop</extends>
+    <metadata_license>GPL-3.0+</metadata_license>
+    <project_license>GPL-3.0+</project_license>
+    <name>Nautilus Hide</name>
+    <summary>Extension for Nautilus to hide files without renaming them</summary>
+    <summary xml:lang="pt">Extensão para o Nautilus para ocultar ficheiros sem os renomear</summary>
+    <description>
+        <p>
+            Nautilus Hide is a simple Python extension for the Nautilus file
+            manager that adds options to the right-click menu to hide or unhide
+            files.
+        </p>
+        <p>
+            The extension hides the files without renaming them (i.e. without
+            prefixing a dot ('.') or suffixing a tilde ('~')).
+            It does that by adding their names to the folder's '.hidden' file,
+            which Nautilus reads to hide the listed files the next time you open
+            or refresh the folder.
+        </p>
+        <p xml:lang="pt">
+            O Nautilus Hide é uma extensão em Python simples para o gestor de
+            ficheiros Nautilus que adiciona opções ao menu de contexto para
+            ocultar ou desocultar ficheiros.
+        </p>
+        <p xml:lang="pt">
+            A extensão oculta os ficheiros sem os renomear (i.e. sem adicionar
+            um ponto ('.') ao início ou um til ('~') ao fim).
+            Faz isso adicionado os seus nomes ao ficheiro '.hidden' da pasta,
+            o qual o Nautilus lê para ocultar a lista de ficheiros da próxima
+            vez que abrir ou actualizar a pasta.
+        </p>
+    </description>
+    <url type="homepage">http://brunonova.github.io/nautilus-hide/</url>
+    <url type="bugtracker">http://brunonova.github.io/nautilus-hide/issues/</url>
+    <developer_name>Bruno Nova</developer_name>
+    <update_contact>brunomb.nova@gmail.com</update_contact>
+    <releases>
+        <release version="0.1.3" date="2015-09-17" urgency="low">
+            <description>
+                <ul>
+                    <li>Moved the project to GitHub.</li>
+                </ul>
+            </description>
+        </release>
+    </releases>
+</component>
