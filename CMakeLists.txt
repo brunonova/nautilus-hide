@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.6)
 project(NautilusHide NONE)
+list (APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 find_package(Gettext REQUIRED)
+find_package(Xdotool REQUIRED)
 
 configure_file(extension/nautilus-hide.py extension/nautilus-hide.py)
 
