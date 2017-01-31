@@ -14,7 +14,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import os
+import os, subprocess
 from gi.repository import Nautilus, GObject
 from gettext import ngettext, locale, bindtextdomain, textdomain
 
@@ -120,7 +120,7 @@ class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
 				with open(hidden_path, "w") as f:
 					for file in hidden:
 						f.write(file + '\n')
-			# Nautilus should be refreshed here. But how to do that?
+			subprocess.Popen(["xdotool","key","F5"])
 		except:
 			print("Failed to delete or write to {}!".format(hidden_path))
 
