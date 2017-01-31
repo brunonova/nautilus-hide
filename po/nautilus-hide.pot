@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Bruno Nova <brunomb.nova@gmail.com>
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the nautilus-hide package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-hide 0.1.3\n"
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
-"POT-Creation-Date: 2015-12-08 13:18+0000\n"
+"POT-Creation-Date: 2017-01-31 04:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
