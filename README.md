@@ -31,7 +31,7 @@ you open or refresh that folder, those files will not be visible.
 This extension simply uses that ".hidden" file to hide files. When you choose to
 hide a file, its name is added to the folder's ".hidden" file. When you choose
 to unhide it, the name is removed.
-You will have to refresh the folder to see the result.
+If the file isn't hidden/unhidden, press `F5` to refresh the folder.
 
 
 ## Download

@@ -7,6 +7,7 @@ Installing Nautilus Hide from source
     *   cmake
     *   gettext
     *   python-nautilus
+    *   xdotool
 
 2.  Open a terminal in the project directory and run:
 

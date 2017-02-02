@@ -5,3 +5,5 @@ if(XDOTOOL_NOTFOUND)
 else(XDOTOOL_FOUND)
 	message ("-- Found xdotool")
 endif()
+
+find_package_handle_standard_args(Xdotool "Could not find xdotool!" XDOTOOL)
