@@ -39,6 +39,14 @@
     <developer_name>Bruno Nova</developer_name>
     <update_contact>brunomb.nova@gmail.com</update_contact>
     <releases>
+        <release version="0.2.0" date="2017-02-02" urgency="low">
+            <description>
+                <ul>
+                    <li>Refresh the folder automatically after hiding or
+                    unhiding a file.</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.1.3" date="2015-09-17" urgency="low">
             <description>
                 <ul>
