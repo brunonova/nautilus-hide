@@ -1,0 +1,45 @@
+# German translation for nautilus-hide package.
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the nautilus-hide package.
+# Bruno Nova <brunomb.nova@gmail.com>, 2015.
+#
+# Translators:
+# Silubr, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-hide 0.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
+"POT-Creation-Date: 2017-01-31 04:13+0000\n"
+"PO-Revision-Date: 2017-02-13 17:31+0200\n"
+"Last-Translator: Silubr\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: extension/nautilus-hide.py:100
+msgid "Hide this file"
+msgid_plural "Hide these files"
+msgstr[0] "Datei verstecken"
+msgstr[1] "Dateien verstecken"
+
+#: extension/nautilus-hide.py:107
+msgid "Un_hide File"
+msgid_plural "Un_hide Files"
+msgstr[0] "Datei _einblenden"
+msgstr[1] "Dateien _einblenden"
+
+#: extension/nautilus-hide.py:108
+msgid "Unhide this file"
+msgid_plural "Unhide these files"
+msgstr[0] "Datei einblenden"
+msgstr[1] "Dateien einblenden"
+
+#: extension/nautilus-hide.py:99
+msgid "_Hide File"
+msgid_plural "_Hide Files"
+msgstr[0] "Datei _verstecken"
+msgstr[1] "Dateien _verstecken"
