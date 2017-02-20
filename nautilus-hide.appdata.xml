@@ -39,6 +39,13 @@
     <developer_name>Bruno Nova</developer_name>
     <update_contact>brunomb.nova@gmail.com</update_contact>
     <releases>
+        <release version="0.2.1" date="2017-02-20" urgency="low">
+            <description>
+                <ul>
+                    <li>Added German translation (thanks Silubr).</li>
+                </ul>
+            </description>
+        </release>
         <release version="0.2.0" date="2017-02-02" urgency="low">
             <description>
                 <ul>
