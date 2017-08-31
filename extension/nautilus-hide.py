@@ -1,5 +1,5 @@
 # Nautilus Hide - Extension for Nautilus to hide files without renaming them
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova
 #               2016 Steeven Lopes <steevenlopes@outlook.com>
 #
 # This program is free software: you can redistribute it and/or modify

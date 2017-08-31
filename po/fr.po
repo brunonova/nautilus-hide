@@ -1,7 +1,7 @@
 # French translation for nautilus-hide package.
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova
 # This file is distributed under the same license as the nautilus-hide package.
-# Bruno Nova <brunomb.nova@gmail.com>, 2015.
+# Bruno Nova, 2015.
 #
 # Translators:
 # Okki <okki@gnomelibre.fr>, 2015.

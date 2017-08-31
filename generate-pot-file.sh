@@ -5,7 +5,7 @@ DIR="$(dirname "$FILEPATH")"
 cd "$DIR"
 xgettext --package-name=nautilus-hide \
          --package-version=0.2.2 \
-         --copyright-holder='Bruno Nova <brunomb.nova@gmail.com>' \
+         --copyright-holder='Bruno Nova' \
          --msgid-bugs-address='https://github.com/brunonova/nautilus-hide/issues' \
          -cTRANSLATORS \
          -s -o "po/nautilus-hide.pot" \

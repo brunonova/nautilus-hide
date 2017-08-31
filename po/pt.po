@@ -1,7 +1,7 @@
 # Portuguese translations for nautilus-hide package.
-# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# Copyright (C) 2015 Bruno Nova
 # This file is distributed under the same license as the nautilus-hide package.
-# Bruno Nova <brunomb.nova@gmail.com>, 2015.
+# Bruno Nova, 2015.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
 "POT-Creation-Date: 2015-12-08 13:18+0000\n"
 "PO-Revision-Date: 2015-10-05 21:49+0100\n"
-"Last-Translator: Bruno Nova <brunomb.nova@gmail.com>\n"
+"Last-Translator: Bruno Nova\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
