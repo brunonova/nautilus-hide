@@ -19,12 +19,12 @@ import os, subprocess
 from gi.repository import Nautilus, GObject
 from gettext import ngettext, locale, bindtextdomain, textdomain
 
-class NautilusHide(Nautilus.MenuProvider, GObject.GObject):
+class NautilusHide(GObject.GObject, Nautilus.MenuProvider):
 	"""Simple Nautilus extension that adds some actions to the context menu to
 	hide and unhide files, by adding/removing their names to/from the folder's
 	'.hidden' file."""
 	def __init__(self):
-		pass
+		GObject.Object.__init__(self)
 
 	def get_file_items(self, window, files):
 		"""Returns the menu items to display when one or more files/folders are
