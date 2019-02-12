@@ -6,8 +6,13 @@ find_package(Xdotool REQUIRED)
 
 configure_file(extension/nautilus-hide.py extension/nautilus-hide.py)
 
-file(GLOB PO_FILES "po/*.po")
-gettext_create_translations(po/nautilus-hide.pot ALL ${PO_FILES})
+file(GLOB TRANSLATION_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "po/*")
+foreach(trans_file ${TRANSLATION_FILES})
+    configure_file(${trans_file} ${trans_file} COPYONLY)
+endforeach()
+file(GLOB PO_FILES "${CMAKE_CURRENT_BINARY_DIR}/po/*.po")
+gettext_create_translations("${CMAKE_CURRENT_BINARY_DIR}/po/nautilus-hide.pot"
+                            ALL ${PO_FILES})
 
 install(FILES "${CMAKE_CURRENT_BINARY_DIR}/extension/nautilus-hide.py" DESTINATION /usr/share/nautilus-python/extensions)
 
