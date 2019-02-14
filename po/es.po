@@ -1,0 +1,43 @@
+# Spanish translations for nautilus-hide package.
+# Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the nautilus-hide package.
+# Carlos Maddela <e7appew@gmail.com>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-hide 0.2.3\n"
+"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-hide/issues\n"
+"POT-Creation-Date: 2019-02-14 15:27+1100\n"
+"PO-Revision-Date: 2019-02-14 15:27+1100\n"
+"Last-Translator: Carlos Maddela <e7appew@gmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extension/nautilus-hide.py:100
+msgid "Hide this file"
+msgid_plural "Hide these files"
+msgstr[0] "Ocultar este fichero"
+msgstr[1] "Ocultar estos ficheros"
+
+#: extension/nautilus-hide.py:107
+msgid "Un_hide File"
+msgid_plural "Un_hide Files"
+msgstr[0] "_Mostrar Fichero"
+msgstr[1] "_Mostrar Ficheros"
+
+#: extension/nautilus-hide.py:108
+msgid "Unhide this file"
+msgid_plural "Unhide these files"
+msgstr[0] "Mostrar este fichero"
+msgstr[1] "Mostrar estos ficheros"
+
+#: extension/nautilus-hide.py:99
+msgid "_Hide File"
+msgid_plural "_Hide Files"
+msgstr[0] "_Ocultar Fichero"
+msgstr[1] "_Ocultar Ficheros"
